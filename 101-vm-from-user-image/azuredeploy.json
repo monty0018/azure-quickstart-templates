@@ -48,6 +48,12 @@
         "description": "This is the OS that your VM will be running"
       }
     },
+    "vmName": {
+      "type": "string",
+      "metadata": {
+        "description": "This is the name of the VM in Azure and also the computer name."
+      }
+    }
     "vmSize": {
       "type": "string",
       "metadata": {
@@ -58,7 +64,7 @@
   "variables": {
     "location": "[resourceGroup().location]",
     "publicIPAddressName": "myPublicIP",
-    "vmName": "myVM",
+    "vmName": parameters('vmName'),
     "virtualNetworkName": "myVNET",
     "nicName": "myVMNic",
     "addressPrefix": "10.0.0.0/16",

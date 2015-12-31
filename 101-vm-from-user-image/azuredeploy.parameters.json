@@ -17,6 +17,9 @@
     "userImageVhdName": {
       "value": "sample.vhd"
     },
+    "vmName": {
+      "value": "myVM"
+    },
     "dnsNameForPublicIP": {
       "value": "uniqueDNS"
     },

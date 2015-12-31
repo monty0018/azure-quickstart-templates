@@ -53,7 +53,7 @@
       "metadata": {
         "description": "This is the name of the VM in Azure and also the computer name."
       }
-    }
+    },
     "vmSize": {
       "type": "string",
       "metadata": {
